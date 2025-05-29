@@ -5,7 +5,9 @@ linguagensDeProgramaçao.push('Java');
 linguagensDeProgramaçao.push('Ruby');
 linguagensDeProgramaçao.push('GoLang');
 
-let listaNome= ['Cleide', 'Carlos', 'Dalva'];
+function mostrarLista(){
+    let listaNome= ['Cleide', 'Carlos', 'Dalva'];
 console.log(listaNome[0]);
 console.log(listaNome[1]);
 console.log(listaNome[listaNome.length - 1]);
+}

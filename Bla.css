@@ -36,3 +36,9 @@ img{
     height: 500px;
     width: 850px;
 }
+button{
+    width: 100px;
+    height: 100px;
+
+    background-color: rgb(132, 10, 247);
+}
