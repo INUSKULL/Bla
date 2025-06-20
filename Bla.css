@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 .container{
     background-color: rgb(0, 53, 53);
@@ -15,15 +15,31 @@
     gap: 10 px;
  
 }
-.item{
-    background-color: rgb(132, 10, 247);
-    margin: 10px;
-    color: #fff;
-    font-size: 22px;
-    border-radius: 5px;
+section{
+    background-color: rgb(0, 87, 87);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.doomsection{
+  background-color: rgb(0, 87, 87);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  min-height: 50px;
+}
+
+img{
+    background-color: rgb(0, 87, 87);
     width: 100px;
     height: 100px;
-    
 }
 .doom{
     background-color: rgb(0, 87, 87);
@@ -31,14 +47,101 @@
     justify-content: center;
     align-items: center;
 }
-img{
+.doomimg{
     border-radius: 15px;
     height: 500px;
     width: 850px;
 }
+
 button{
-    width: 100px;
+    width: 120px;
+    height: 120px;
+}
+
+.doombutton{
+     background-color: rgb(133, 0, 0);
+    margin: 10px;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 5px;
+    width: 150px;
     height: 100px;
 
-    background-color: rgb(132, 10, 247);
 }
+.lista{
+    background-color: rgb(0, 133, 133);
+    margin: 10px;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 5px;
+    width: 150px;
+    height: 100px;
+}
+
+.pente{
+    background-color: rgb(92, 94, 93);
+    margin: 10px;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 5px;
+    width: 150px;
+    height: 100px;
+}
+
+.caixa{
+    background-color: rgb(17, 87, 27);
+    margin: 10px;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 5px;
+    width: 150px;
+    height: 100px;
+}
+.cartuchos{
+    background-color: rgb(235, 0, 0);
+    margin: 10px;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 5px;
+    width: 150px;
+    height: 100px;
+}
+.caixa-cartuchos{
+    background-color: rgb(52, 87, 88);
+    margin: 10px;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 5px;
+    width: 150px;
+    height: 100px;
+    
+}
+
+.descarregarbutton{
+    background-color: rgb(196, 69, 11);
+    margin: 10px;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 5px;
+    width: 150px;
+    height: 100px;
+
+}
+
+.doomp{
+    font-family: Impact;
+    font-size: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    color: aliceblue;
+}
+
+.doom2{
+    background-color:  rgb(0, 133, 133);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

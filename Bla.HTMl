@@ -5,20 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bla</title>
     <link rel="stylesheet" href="Bla.css">
-    <script src="Bla.js"></script>
 </head>
 <body>
     <div class="container">
-        <div class="item"><button onclick="mostrarLista()">1</button></div>
-        <div class="item">2</div>
-        <div class="item">3</div>
-        <div class="item">4</div>
-        <div class="item">5</div>
-        <div class="item">6</div>
+
+         <div class="DOOMBFG">
+            <button class="doombutton" onclick="doom()">DOOM</button>
+        </div>
+
+        <div class="listadiv">
+            <button class="lista" onclick="mostrarLista()">Lista de munição</button>
+        </div>
+
+        <div class="pentediv">
+            <button class="pente"onclick="adicionar(1)">Pente de Munição</button>
+        </div>
+
+        <div class="caixadiv">
+            <button class="caixa" onclick="adicionar(2)">Caixa de Munição</button>
+        </div>
+
+        <div class="cartuchosdiv">
+            <button class="cartuchos" onclick="adicionar(3)">Cartuchos</button>
+        </div>
+
+        <div class="caixa-cartuchosdiv">
+            <button class="caixa-cartuchos" onclick="adicionar(4)">Caixa de Cartuchos</button>
+        </div>
+        
+         <div class="descarregar">
+            <button class="descarregarbutton" onclick="descarregar()">Descarregar</button>
+        </div>
+
     </div>
      <div class="doom">
-        <p>DOOM</p>
-        <img src="doom.gif" alt="">
+         
+        <section class="doomsection">
+            <p class="doomp">DOOM</p>
+        </section>
     </div>
+    <div class="doom2">
+         <img class ="doomimg" src="doom.gif" alt="">
+    </div>
+
+   
+    <script src="Bla.js"></script>
 </body>
 </html>
